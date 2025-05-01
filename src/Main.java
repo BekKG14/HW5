@@ -39,10 +39,18 @@ public class Main {
         for(int f = 1; f < 513; f = f * 2){
             System.out.println(f);
         }
-        // Задание 8-9
+        // Задание 8
         System.out.println("Задание 8");
-        int salary = 29000;
+        int salary;
+        salary = 29000;
         int total = 0;
+        for(int i = 1; i < 13; i++){
+            total = total + salary;
+            System.out.println(total);
+        }
+        // Задание 9
+        System.out.println("Задание 9");
+        total = 0;
         for(int month = 1; month < 13; month++){
             total = total + (total / 100);
             total = total + salary;
